@@ -1,8 +1,8 @@
-package pl.arturborowy.util.preferences
+package pl.arturborowy.awesomepreferences
 
 import android.content.Context
 import android.content.SharedPreferences
-import pl.arturborowy.util.preferences.delegates.*
+import pl.arturborowy.awesomepreferences.delegates.*
 
 /**
  * Represents a single [SharedPreferences] file.
