@@ -1,4 +1,4 @@
-package pl.arturborowy.util.preferences
+package pl.arturborowy.awesomepreferences
 
 import kotlin.reflect.KProperty
 

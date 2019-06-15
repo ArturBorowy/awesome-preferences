@@ -1,4 +1,4 @@
-package pl.arturborowy.util.preferences.delegates
+package pl.arturborowy.awesomepreferences.delegates
 
 import android.content.SharedPreferences
 import kotlin.reflect.KProperty

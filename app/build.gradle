@@ -16,7 +16,6 @@ android {
     }
 
     defaultConfig {
-        //TODO `PLACEHOLDER NAME`: REPLACE WITH YOUR APP'S ID
         applicationId "pl.arturborowy"
         minSdkVersion 19
         targetSdkVersion 28
@@ -101,6 +100,8 @@ apply from: 'dependencies.gradle'
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation project(path: ':awesomepreferences')
 
     implementation androidx
     implementation firebase
